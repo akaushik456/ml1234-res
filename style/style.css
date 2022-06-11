@@ -1613,5 +1613,56 @@ hr{
     }
 }
 @media(max-width:380px) {
-
+    .middle-container{
+        padding: 0;
+    }
+    .background-section{
+        height: 1500px;
+    }
+    .left-work-area{
+        text-align: center;
+    }
+    .left-work-area p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .section-background-image{
+        min-height: 576px;
+    }
+    .left-content h6{
+        line-height: 1;
+    }
+    .form-work-area{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .cstm-btn-ml-section a{
+        position: unset;
+        width: 100%;
+        padding: 11px 31%;
+    }
+    .cstm-btn-ml-section{
+        width: 100%;
+        margin-top: 84px;
+    }
+    .right-content-image img{
+        width: 80%;
+    }
+    .first-card-image img{
+        height: 460px;
+    }
+    .text-in-image-ml h3{
+        width: 100%;
+        font-size: 34px;
+    }
+    .footer-contact{
+        min-height: 1070px;
+    }
+    .user-last-btn a{
+        padding: 12px 127px;
+    }
+    .footer-right-content p{
+        font-size: 23px;
+    }
 }
